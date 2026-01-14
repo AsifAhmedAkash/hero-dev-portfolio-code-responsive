@@ -282,3 +282,7 @@ footer .footer-container {
 
     color: #757575
 }
+
+.hide {
+    display: none !important;
+}
