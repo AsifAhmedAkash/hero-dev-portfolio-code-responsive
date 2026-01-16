@@ -1,0 +1,11 @@
+/* //laptop device */
+@media screen and (max-width:1200px) {}
+
+/* //tablet */
+@media screen and (max-width:992px) {}
+
+/* //big mobile */
+@media screen and (max-width:768px) {}
+
+/* //small mobile  */
+@media screen and (max-width:576px) {}
