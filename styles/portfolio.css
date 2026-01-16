@@ -288,6 +288,15 @@ footer .footer-container {
 }
 
 @media screen and (max-width: 576px) {
+    nav {
+        gap: 20px;
+    }
+
+    nav .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .container {
         width: 95%;
     }
@@ -311,7 +320,8 @@ footer .footer-container {
     #skills .skills-container .skill-box,
     #about .about-container .about-info,
     footer .footer-container,
-    #resume .resume-container {
+    #resume .resume-container,
+    nav {
         flex-direction: column;
     }
 
