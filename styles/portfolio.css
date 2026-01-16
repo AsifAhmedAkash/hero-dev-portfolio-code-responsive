@@ -308,11 +308,22 @@ footer .footer-container {
         line-height: 30px;
     }
 
-    #skills .skills-container .skill-box {
+    #skills .skills-container .skill-box,
+    #about .about-container .about-info {
         flex-direction: column;
+    }
+
+    #about .about-container .about-info {
+        gap: 40px
     }
 
     .skill-box .skill-card {
         max-width: 100%;
     }
+
+    #about .about-container {
+        padding: 20px
+    }
+
+
 }
