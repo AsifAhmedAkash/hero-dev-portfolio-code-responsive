@@ -309,7 +309,8 @@ footer .footer-container {
     }
 
     #skills .skills-container .skill-box,
-    #about .about-container .about-info {
+    #about .about-container .about-info,
+    footer .footer-container {
         flex-direction: column;
     }
 
@@ -325,5 +326,8 @@ footer .footer-container {
         padding: 20px
     }
 
-
+    .footer-container form input[type="text"],
+    .footer-container form textarea {
+        width: 100%;
+    }
 }
