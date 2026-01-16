@@ -310,12 +310,21 @@ footer .footer-container {
 
     #skills .skills-container .skill-box,
     #about .about-container .about-info,
-    footer .footer-container {
+    footer .footer-container,
+    #resume .resume-container {
         flex-direction: column;
     }
 
     #about .about-container .about-info {
         gap: 40px
+    }
+
+    #resume .resume-container {
+        margin-top: 60px;
+    }
+
+    .resume-card {
+        margin-right: 10px;
     }
 
     .skill-box .skill-card {
@@ -330,4 +339,6 @@ footer .footer-container {
     .footer-container form textarea {
         width: 100%;
     }
+
+
 }
